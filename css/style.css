@@ -13,6 +13,12 @@ army green: 41521F;
 	font-family: 'El Messiri', Helvetica, Arial, sans-serif;
 }
 
+.nav>li>a:focus,
+.nav>li>a:hover {
+	text-decoration: none;
+	background-color: #eee !important;
+}
+
 .modal-title {
 	color: #151515;
 	font-size: 14px;
