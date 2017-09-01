@@ -3,18 +3,36 @@ wood brown: A89F68;
 army green: 41521F;
 */
 
+
 /*@import url('https://fonts.googleapis.com/css?family=Montserrat');*/
 
+
 /* ESTILOS GENERALES */
+
 * {
 	font-family: 'El Messiri', Helvetica, Arial, sans-serif;
 }
-.box h1{
-	font-size: 40px;
-	
+
+.modal-title {
+	color: #151515;
+	font-size: 14px;
 }
 
-h1, h2, h3 {
+.collapse {
+	color: #151515;
+}
+
+div.well {
+	background-color: #41521F;
+}
+
+.box h1 {
+	font-size: 40px;
+}
+
+h1,
+h2,
+h3 {
 	font-weight: 700;
 	color: #A89F68;
 }
@@ -22,11 +40,13 @@ h1, h2, h3 {
 a {
 	color: #A89F68 !important;
 }
+
 a:hover,
 a:focus,
 a:active {
 	color: #41521F;
 }
+
 a,
 a:hover,
 a:focus,
@@ -37,11 +57,13 @@ a:active,
 .btn:active {
 	transition: .5s all ease;
 }
+
 .btn-default {
-    color: #fff !important;
-    background-color: #41521F !important;
-    border: #41521F ;
+	color: #fff !important;
+	background-color: #41521F !important;
+	border: #41521F;
 }
+
 .btn {
 	font-weight: 700;
 }
@@ -49,45 +71,54 @@ a:active,
 .bg-img {
 	min-height: 100vh;
 	background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+	background-position: center;
+	background-repeat: no-repeat;
 	padding: 0;
 	margin: 0;
 	color: #fff;
 }
+
 .bg-color {
 	background-color: #A89F68;
 	color: #fff;
 	padding: 5em 0;
 }
+
 .bg-color h2 {
 	color: #41521F;
 }
+
 .bg-color h2 small {
-	color: #fff;	
+	color: #fff;
 }
+
 ul {
 	list-style: none;
 	padding: 0;
 }
 
+
 /* NAVBAR */
+
 menu {
 	margin: 0;
 	padding: 0;
 }
+
 .navbar-brand h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 140%;
-    color: #fff;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0,.7);
+	margin: 0;
+	padding: 0;
+	font-size: 140%;
+	color: #fff;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, .7);
 	transition: .5s all ease;
 }
+
 .navbar-inverse {
-    background-color: transparent;
-    border: none;
+	background-color: transparent;
+	border: none;
 }
+
 
 /* HERO */
 
@@ -96,40 +127,49 @@ header#hero {
 	position: relative;
 	padding: 100px 0;
 }
+
 header#hero h1 {
 	font-size: 250%;
 }
+
 header#hero .box {
 	position: absolute;
 	width: 30%;
-	
-	bottom: 35vh;
 }
+
 header#hero .lead {
-    font-size: 100%;
-	
+	font-size: 100%;
 }
+
+
 /* FOUNDATION */
+
 #foundation {
 	min-height: 100vh;
 	padding: 15vh 0;
 }
+
 #foundation .box {
 	padding-top: 10vh;
 }
+
+
 /*KOALAS SECCION 3*/
-#koalas{
+
+#koalas {
 	min-height: 30vh;
-    padding: 15vh 0;
-    background-color: #A89F68; 
+	padding: 15vh 0;
+	background-color: #A89F68;
 }
-.lead_white{
+
+.lead_white {
 	color: #fff;
 }
-#marco{
+
+#marco {
 	border: 10px #fff solid;
-	
 }
+
 
 /*KOALAS4 SECCION 4*/
 
@@ -137,149 +177,167 @@ header#hero .lead {
 	color: #41521F !important;
 	font-size: 160%;
 }
-#koalas small{
+
+#koalas small {
 	color: #fff !important;
 	font-size: 50% !important;
-	
 }
+
+
 /*Seccion Donate*/
+
 #donate {
 	background-image: url(../img/all.jpg);
-		
+	padding: 50% 7%;
+	padding-top: 6%;
 }
-#donate small{
+
+#donate small {
 	color: #fff !important;
-	font-size: 80%;
 }
-#donate h2{
-	font-size: 120%;
+
+#donate h2 {
+	font-size: 140%;
 	margin: 0.5%;
 	margin-top: 1%;
 	padding: 0.5%;
 }
-small.help{
-	font-size: 60% !important;
+
+small.help {
+	font-size: 80% !important;
 }
-.lead2{
-	font-size: 50%;
+
+.lead2 {
+	font-size: 80%;
+	margin: 0;
 }
+
+
 /*con_fonawesome*/
+
 #con_fonawesome {
 	min-height: 20vh;
 	padding: 10vh 0;
 }
-#titulo{
+
+#titulo {
 	color: #A89F68;
 	font-size: 24px;
 }
+
 .icon {
 	color: #A89F68;
 	font-size: 50px;
-}.seccion-6{
+}
+
+.seccion-6 {
 	padding: 5em 0;
 }
 
-.titulo-help{
+.titulo-help {
 	padding-bottom: 3em;
-	color:#A89F68;
+	color: #A89F68;
 }
 
-.fa{
-	color:#A89F68;
+.fa {
+	color: #A89F68;
 	padding-bottom: 0.5em;
 }
 
-.seccion-6 p{
+.seccion-6 p {
 	color: grey;
 }
 
 
-
 /*seccion SIETE*/
 
-#donation-options{
+#donation-options {
 	background-color: #A89F68;
 	padding: 3.5em 0;
 }
-#titulo2{
+
+#titulo2 {
 	color: #41521F;
 	font-size: 24px;
 }
-.donar-plan{
+
+.donar-plan {
 	font-size: 1em;
 	letter-spacing: 4px;
-	padding-right:22px;
+	padding-right: 22px;
 	color: #171717
 }
 
-.valor{
+.valor {
 	font-size: 4em;
 }
 
-.precio{
+.precio {
 	color: white;
 	font-size: 6em;
 }
 
-.currency{
+.currency {
 	font-size: 16px;
 	top: -3em;
 	right: 0.5em;
 }
 
-.precio small{
+.precio small {
 	font-size: 14px;
-	
 }
 
-.caja-donar p{
+.caja-donar p {
 	font-size: 0.9em;
 	color: #191818;
 }
 
-.caja-donar a{
-	background-color:#41521F ;
+.caja-donar a {
+	background-color: #41521F;
 	padding: 8px 12px;
 	border-radius: 5px;
 	color: white;
-	border:none;
+	border: none;
 }
 
-.negrita{
+.negrita {
 	font-weight: 700px;
 	color: #191818;
 }
 
+
 /*FOOTER*/
-.containerFooter{
+
+.containerFooter {
 	background-color: #41521F;
 	padding: 3.5em 5em;
 }
-footer .sobre{
+
+footer .sobre {
 	color: #A89F68;
 	font-size: 1em;
 }
 
-footer p{
+footer p {
 	color: white;
 	font-size: 0.8em;
 }
 
-footer a{
-	color:#A89F68;
+footer a {
+	color: #A89F68;
 }
 
-footer a:hover{
-	color:white;
+footer a:hover {
+	color: white;
 }
 
-footer .menu-footer{
-	padding-top:1.9em;
+footer .menu-footer {
+	padding-top: 1.9em;
 	padding: auto;
 	text-align: center;
 }
 
-footer .menu-footer li{
-	list-style-type:none;
+footer .menu-footer li {
+	list-style-type: none;
 	font-size: 0.85em;
 }
